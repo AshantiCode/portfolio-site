@@ -1,18 +1,24 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 
 }
 
 body {
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: "Luna";
   font-size: 1.25rem;
   color: #fff;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
   /* background: url('img/long-wood-bg.jpg') beige no-repeat; */
   /* background: url('img/blur-blurry-close-up-347139.jpg') center center no-repeat; */
-  height: 90vh;
-  background-attachment: fixed;
+  /* height: 90vh; */
+  /* background-attachment: fixed; */
 }
 
 section {
@@ -142,6 +148,6 @@ nav a:hover {
 /*   COntent  */
 
 .content-section {
-  background: #fff;
-  margin-top: 200px;
+  /* background: #fff; */
+  /* margin-top: 200px; */
 }
